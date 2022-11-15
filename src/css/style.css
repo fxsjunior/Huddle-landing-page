@@ -1,0 +1,143 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: url('../images/bg-desktop.svg') center center;
+  background-color: var(--violeta);
+  min-height: 100vh;
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "main main"
+    "footer footer";
+
+
+}
+
+
+.header {
+  grid-area: header;
+}
+
+.header img {
+  height: 50px;
+  margin: 20px auto 10px 30px;
+
+}
+
+
+main {
+  display: grid;
+  grid-area: main;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 1440px;
+  margin: 0 auto;
+
+}
+
+main .card {
+  margin-left: 30px;
+
+
+}
+
+main .sobre {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  width: 65%;
+  margin: 20px auto 0 45px;
+  gap: 25px;
+
+}
+
+main .sobre .titulo {
+  font-size: 4rem;
+  color: var(--branco);
+  font-family: var(--fonte-header);
+  font-weight: 600;
+  
+}
+
+main .sobre .text {
+  font-size: 1.4rem;
+  color: var(--branco);
+  font-family: var(--fonte-header);
+  font-weight: 400;
+  
+  
+}
+
+
+main .btn .register {
+  font-size: 1.5rem;
+  font-family: var(--fonte-header);
+  color: var(--violeta);
+  padding: 8px 40px;
+  border: 1px solid none;
+  border-radius: 20px;
+  background-color: var(--branco);
+  transition: 0.3s ease-in-out;
+  
+
+}
+
+main .btn .register:hover {
+  background-color: var(--Soft-Magenta);
+  color: var(--branco);
+
+}
+
+
+footer {
+  grid-area: footer;
+
+}
+
+
+
+footer .social .menu {
+  display: flex;
+  width: 86%;
+  justify-content: end;
+
+}
+
+footer .social .menu li a {
+  font-size: 1.5rem;
+  margin-right: 20px;
+  border: 1px solid var(--branco);
+  color: var(--branco);
+  border-radius: 50%;
+  padding: 1.2rem;
+  transition: 0.3s ease-in-out;
+  
+}
+
+footer .social .menu li a:hover {
+  border: 1px solid var(--Soft-Magenta);
+  color: var(--Soft-Magenta);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,68 @@
+@media(max-width: 320px) {
+  body {
+    background: url('../images/bg-mobile.svg');
+    background-color: var(--violeta);
+
+  }
+
+  .header img {
+    height: 30px;
+    margin-left: 20px;
+
+  }
+
+
+  main {
+    grid-template-columns: 1fr;
+
+  }
+
+  main .card {
+    margin: 20px;
+
+  }
+
+  main .sobre {
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    gap: 15px;
+
+  }
+
+  main .sobre .titulo {
+    font-size: 2.5rem;
+    
+  }
+
+  main .sobre .text {
+    font-size: 1.3rem;
+
+
+  }
+
+  main .sobre .btn {
+    margin: 20px;
+  }
+
+  main .btn .register {
+    font-size: 1rem;
+    padding: 7px 55px;
+
+  }
+
+  footer .social .menu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 25px 0;
+  }
+
+  footer .social .menu li a{
+    margin: 5px;
+    font-size: 1rem;
+    padding: .5rem;
+
+  }
+
+}
